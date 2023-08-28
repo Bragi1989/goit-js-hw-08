@@ -39,12 +39,12 @@ messageInput.addEventListener('input', throttledSaveFormState);
 
 // Clear form state and localStorage on form submit
 form.addEventListener('submit', event => {
-  event.preventDefault();
-  console.log('Form submitted with values:', {
-    email: emailInput.value,
-    message: messageInput.value
-  });
-  localStorage.removeItem(storageKey);
-  emailInput.value = '';
-  messageInput.value = '';
+    event.preventDefault();
+    console.log('Form submitted with values:', {
+        email: emailInput.value,
+        message: messageInput.value
+    });
+    localStorage.removeItem(storageKey);
+    emailInput.value = '';
+    messageInput.value = '';
 });
