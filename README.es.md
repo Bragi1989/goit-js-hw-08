@@ -20,7 +20,7 @@ las funciones adicionales.
 7. Inicia el modo de desarrollo, ejecutando el comando `npm start`.
 8. Ve a la dirección [http://localhost:1234](http://localhost:1234) en tu
    navegador. Esta página se recargará automáticamente después de guardar los
-   cambios en los archivos del proyecto.111111
+   cambios en los archivos del proyecto.
 
 ## Archivos y carpetas
 
